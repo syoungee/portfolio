@@ -207,13 +207,13 @@ p {
 }
 
 .school__name,
-.school_period {
+.school__period {
   color: var(--color-light-grey);
 }
 
 .school__name {
   font-size: var(--font-small);
 }
-.school_period {
+.school__period {
   font-size: var(--font-micro);
 }
