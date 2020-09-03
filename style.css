@@ -2,7 +2,7 @@
 :root {
   /* Color */
   --color-white: #ffffff;
-  --color-light-white: #eeeee;
+  --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
   --color-pink: #fe918d;
   --color-dark-pink: #ff6863;
@@ -156,6 +156,9 @@ p {
 .section {
   text-align: center;
   padding: 50px;
+  margin: auto;
+}
+.section__container {
   max-width: 1200px;
   margin: auto;
 }
@@ -216,4 +219,39 @@ p {
 }
 .school__period {
   font-size: var(--font-micro);
+}
+
+/* Skill */
+#skills {
+  background-color: var(--color-yellow);
+}
+
+.skillset {
+  display: flex;
+  background-color: var(--color-light-grey);
+  color: var(--color-light-white);
+  margin: 20px 0;
+}
+
+.skillset__title {
+  color: var(--color-white);
+}
+
+.skillset__left {
+  flex-basis: 60%;
+  background-color: var(--color-dark-grey);
+  padding: 20px;
+}
+
+.skill__description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillset__right {
+  flex-basis: 40%;
+}
+
+.tools {
+  background-color: var(--color-grey);
 }
