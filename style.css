@@ -423,6 +423,26 @@ p {
   transition: all var(--animation-duration) ease;
 }
 
+/* Scroll */
+.arrow-up {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 70px;
+  height: 70px;
+  font-size: 50px;
+  background-color: var(--color-pink);
+  color: var(--color-white);
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms ease-in;
+}
+.arrow-up.visible {
+  pointer-events: auto;
+  opacity: 1;
+}
+
 /* For below 768px screen width */
 @media screen and (max-width: 768px) {
   .navbar__toggle-btn {
