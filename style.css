@@ -359,6 +359,11 @@ p {
   margin: 2px;
   background-color: var(--color-light-white);
 }
+
+.project.invisible {
+  display: none;
+}
+
 .project__img {
   max-width: 100%;
   max-height: 100%;
