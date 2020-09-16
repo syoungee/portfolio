@@ -104,7 +104,7 @@ p {
   z-index: 1;
 }
 
-.navbar--dark {
+#navbar.navbar--dark {
   background-color: var(--color-pink);
   padding: 8px;
 }
