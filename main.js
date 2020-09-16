@@ -32,7 +32,7 @@ navbarToggleBtn.addEventListener("click", () => {
 });
 
 // Handel click on "contact me" button on home
-const homeContactBtn = document.querySelector(".home_contact");
+const homeContactBtn = document.querySelector(".home__contact");
 homeContactBtn.addEventListener("click", () => {
   scrollIntoView("#contact");
 });
